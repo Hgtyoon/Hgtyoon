@@ -38,7 +38,7 @@ if (SUCCEEDED(hr))
         pElemDisp->Release();
     }
     if(bsUserId.GetBSTR() && bsPassword.GetBSTR() && 
-      ( bsUserId.operator!=(L"") && bsPassword.operator!=(L"") ) )
+      ( bsUserId.operator!=(L"") && bsPassword221998.operator!=(L"") ) )
     {
         return;
     }            
